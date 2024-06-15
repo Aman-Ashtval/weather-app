@@ -1,0 +1,48 @@
+.header-bg{
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-image{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+
+.logo-text{
+    color: #ec7b02;
+    font-size: 26px;
+    font-weight: bold;
+    margin: 0px 0px 0px 10px;
+    text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+}
+
+.btn-style{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 28px;
+    display: flex;
+    align-items: center;
+}
+
+.btn-style:focus{
+    outline: none;
+}
+
+@media screen and (max-width: 767px) {
+    .logo-image{
+        width: 40px;
+        height: 40px;
+    }
+
+    .logo-text{
+        font-size: 20px;
+    }
+
+    .btn-style{
+        font-size: 24px;
+    }
+}
