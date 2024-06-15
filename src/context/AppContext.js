@@ -2,7 +2,7 @@ import React from 'react'
 
 const AppContext = React.createContext({
   isDark: false,
-  changeAppTheme: () => {},
+  onToggleAppTheme: () => {},
 })
 
 export default AppContext
