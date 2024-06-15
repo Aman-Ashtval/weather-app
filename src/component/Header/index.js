@@ -14,7 +14,7 @@ const Header = () => {
                     const{isDark, onToggleAppTheme} = value
 
                     return (
-                        <header className="container-md container-fluid header-bg">
+                        <header className="container-md container-fluid header-bg mb-5">
                             <div className="d-flex align-items-center">
                                 <img src="https://img.freepik.com/premium-vector/tropical-climate-flat-illustration_120816-37137.jpg?w=740" alt="weather logo" className="logo-image" />
                                 <h3 className="logo-text">OpenWeather</h3>

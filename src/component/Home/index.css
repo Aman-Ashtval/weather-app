@@ -1,9 +1,10 @@
 .home-bg{
-    height: 100vh;
+    min-height: 100vh;
     margin: 0px;
-    background-color: antiquewhite;
+    background-color: #f8f8f7;
 }
 
 .dark{
     background-color: black;
 }
+
