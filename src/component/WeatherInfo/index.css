@@ -23,8 +23,53 @@
     font-weight: 500;
 }
 
-.weather-image{
-    width: 150px;
-    height: 150px;
+.weather-discription-p{
+    color: #10014b;
+    font-weight: bold;
+    margin: 0px;
 }
 
+.temp-p{
+    color: #0b0202;
+    margin: 0px;
+    font-size: 80px;
+    font-weight: 300;
+    display: flex;
+}
+
+.temp-icon{
+    align-self: flex-start;
+    color: #fb1a16;
+    font-size: 22px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.info-p{
+    color: #686161;
+    font-size: 14px;
+    font-weight: 450;
+    margin: 0px;
+}
+
+.waether-title{
+    margin: 0px;
+    color: #0b0202;
+    font-weight: 400;
+    font-size: 32px;
+}
+
+.time-p{
+    color: #686161;
+    font-size: 18px;
+    font-weight: 450;
+    margin: 0px;
+}
+
+.small-image{
+    align-self: flex-end;
+    width: 40px;
+    height: 40px;
+    margin-top: 16px;
+    border-radius: 100%;
+}
