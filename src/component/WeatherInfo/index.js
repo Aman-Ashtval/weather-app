@@ -36,7 +36,7 @@ const WeatherInfo = () => {
             setWeatherDetails(data)
             setStatus(responseConstant.success)
         }else{
-            setErrorMassage(response.error)
+            setErrorMassage(response.statusText)
             setStatus(responseConstant.failure)
         }
     }
